@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../userlogin/user.css">
+    <title>Admin Login</title>
+</head>
+
+<body>
+    <div class="admin-container">
+        <form class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button class="sign-button">Sign In</button>
+        </form>
+        <form class="login-form" id="login-form" method="post" action="/submit"></form>
+
+    </div>
+
+</body>
+
+</html>
